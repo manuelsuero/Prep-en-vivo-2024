@@ -1,39 +1,69 @@
 <!DOCTYPE html>
-<html lang="es"> <!-- lang: lenguaje (indica el idioma de la pagina) -->
+<html lang="es">
 
-    <head> <!-- Contiene los metadatos: informacion para el navegador lea nuestro codigo -->
-        <meta charset="UTF-8"> <!-- charset (codificacion): indica la forma en que el navegador va a leer nuestros caracteres (UTF-8 -> Latinoamerica) -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- name="viewport": Ayuda a la pagina a leer el código y el tamaño de la web / content="width=device-width, initial-scale=1.0": Indica el tamaño de la pantalla -->
-        
-        <link rel="shortcut icon" href="Poster de tigre.jpg" type="image/x-icon"> <!-- Sirve para poner el icono en la pestaña al lado del tittle // ATRIBUTOS rel="shortcut icon": indica que es un icono/imagen pequeño / href="": Enlace de la imagen / type="" el tipo de archivo -->
-        <title> MI PRIMERA PAGINA WEB </title> <!-- El nombre de la página donde se previsualiza en la pestaña -->
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css"> 
+        <link rel="shortcut icon" href="Poster de tigre.jpg" type="image/x-icon">
+        <title> MI PRIMERA PAGINA WEB </title> 
     </head>
-    
-    <body> <!-- Contenido de la página web -->
-        <header>
-            <h1>Tigre</h1>
-            <p>Tigre de fuego muy facherito</p> 
+
+    <body> 
+        <header id="encabezado">
+            <h1 class="Titulos">Tigre</h1>
+            
+            <nav>
+                <ul>
+                    <li> <a href="login.html"> Login </a> </li>
+                    <li> Register </li>
+                    <li> Contacto </li>
+                </ul>
+            </nav>
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/49/49116.png" alt="Lupa" id="imglupa">
+            <input type="text">
+            <button> Buscar </button>
+
         </header>
 
-        <nav>
-            <ul>
-                <li> <a href="login.html"> Login </a> </li>
-                <li> Register </li>
-                <li> Contacto </li>
-            </ul>
-        </nav>
+        <main>
+            <p>Tigre de fuego muy facherito</p> 
+            
+            
+            <section>
 
-        <section>
-            <a href="https://es.wikipedia.org/wiki/Panthera_tigris" target="_blank"> Enlace a Tigres en Wikipedia </a>
-            <p> Tigre </p>
-            <img src="Poster de tigre.jpg" alt="Imagen de tigre">    
-        </section>
+                <article>
+                    <h3> Tigre</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quo iure et, officiis rem perspiciatis! Vero aperiam, accusamus molestias at excepturi, in voluptate consectetur id nobis mollitia quod nihil eum.</p>
+                </article>
 
-        <aside>
-        </aside>
+                <article>
+                    <a href="https://es.wikipedia.org/wiki/Panthera_tigris" target="_blank"> Enlace a Tigres en Wikipedia </a>
+                    <br>
+                    <p> Tigre </p>
+                    <img src="Poster de tigre.jpg" alt="Imagen de tigre">    
+                </article>
+
+            </section>
+            
+            <aside>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla temporibus nostrum veritatis ut illum, quam voluptas, perferendis repellat blanditiis voluptatum iste doloribus explicabo corrupti officia, quia distinctio incidunt possimus asperiores.</p>
+
+            </aside>
         
+        </main>
+            
         <footer>
+
+            <h4> Redes Sociales </h4>
+            <a href="https://www.facebook.com/"> Facebook </a>
+            <a href=""> Instagram </a>
+            <a href=""> X </a>
+            
         </footer>
+
     </body>    
 
 </html>

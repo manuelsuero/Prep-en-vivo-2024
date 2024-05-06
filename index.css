@@ -1,0 +1,14 @@
+#imglupa {
+    height: 20px;
+}
+
+#encabezado {
+    background-color: rgb(78, 195, 231);
+    padding: 2px; /* Determina el espacio entre el o los elementos y el contorno de la caja. Para hacerlo mas particular // padding-left: ; determinar: "top, right, botom, left" o directamente. padding: 20 20 20 20; (top, right, botom, left) */
+    margin: 20px; /* Determina el espacio entre la caja y las que le siguen. Para hacerlo mas particular // margin-left: ; determinar: "top, right, botom, left" o directamente. margin: 20 20 20 20; (top, right, botom, left) */
+    font-family: sans-serif;
+    border: 2px solid rgba(5, 170, 211, 0.288);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

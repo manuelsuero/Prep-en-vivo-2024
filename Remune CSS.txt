@@ -1,0 +1,44 @@
+Tipos de Selectores
+
+Selector de etiqueta: Selecciona todos los elementos HTML que tienen una etiqueta especificia. No tiene ninguna sintaxis particular, solo el nombre de la etiqueta
+
+Ej* Le aplico estos estilos a la etiqueta <p></p> 
+
+p { 
+    font-size: 16px;
+    color: #333;
+}
+
+Selector de ID: Selecciona un único elemento HTML en función de su atributo id. Se define con # seguido del nombre del Selector.
+
+<h2 id= "titulo"> Este es un titulo </h2>
+
+#titulo {
+    font-size: 24px;
+    color: #ff0000;
+}
+
+Selector de clase: Selecciona elementos HTML que tiene una clase especifica. Se define con "." seguido del nombre de la clase.
+
+<p class="texto"> Esto es texto </p>
+
+.texto {
+    font-wehht: bold;
+    color: red;
+}
+
+PROPIEDADES Y JERARQUÍA
+
+1. En línea (lo que está agregado dentro de la linea de HTML style="width: 40px";)
+2. 
+3. 
+
+COMO APLICAR CSS 
+
+<link rel="stylesheet" href="index.css">
+
+* position: relative; -> Sacar la posición que tiene por defecto // static (posición por defecto)
+
+FLEXBOX
+
+Es un modelo de diseño que permite distribuir el espacio entre los "hijos" (items) de un contenedor "padre" y definir su alineación, dirección y orden.
